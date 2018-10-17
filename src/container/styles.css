@@ -1,0 +1,33 @@
+.weatherApp {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: darkslategrey;
+  color: white;
+  min-height: 500px;
+  padding: 10px;
+}
+
+select{
+  width:250px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  display: inline;
+}
+
+button{
+  width:250px;  
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+@media(max-width:900px){
+  select{
+    width:300px;
+    border-radius: 5px;
+    margin: 15px auto;
+    display: block;
+  }
+}
